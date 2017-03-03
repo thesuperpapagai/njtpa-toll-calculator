@@ -49,10 +49,38 @@ header {
     padding-bottom: 50px;
     background: url("images/tollplaza.png");
     #background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 340px 100%;
 }
 header h1 {
     text-align: center;
     font-size: 30px;
     font-family: sans-serif;
+}
+
+/* article */
+article {
+    width: 65%;
+    float: left;
+}
+article h2 {
+    font-size: 24px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* sidebar */
+aside {
+    width: 30%;
+    float: right;
+    font-family: sans-serif;
+    background-color: #66b3ff;
+    margin: 7px;
+    border-radius: 3px;
+}
+aside h2 {
+    font-size: 19px;
+    font-family: sans-serif;
+    color: #0099ff;
+    margin: 2px;
+    margin-left: 16px;
 }
